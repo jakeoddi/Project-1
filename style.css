@@ -1,0 +1,76 @@
+.blue
+{
+	color: lime;
+	background-color:none;
+	font-family: "bank gothic";
+	font-size: 24px;
+
+}
+
+#stuff {
+
+color: dodgerblue;
+font-size: 24px;
+
+}
+
+body {
+
+	background-color: lightslategray;
+}
+
+.center {
+
+	text-align: center;
+}
+
+h1 {
+	color: fuchsia;
+}
+
+thead {
+	color: dodgerblue;
+}
+
+tbody {
+	color: lime;
+}
+
+thead, tbody {
+	font-size: 40px;
+}
+
+.shrek {
+	width: 500px;
+	margin: 100px auto;
+	display: block;
+}
+
+.shrek3 {
+	width: 200px;
+
+}
+
+.shrek1 {
+	width: 200px;
+}
+
+.shrek5 {
+	width: 200px;
+
+}
+
+.shrek2 {
+	width: 200px;
+}
+
+.full {
+	width: 100%;
+}
+
+.sweg {
+	padding: 100px;
+	margin: 100px;
+	display: block;
+	color: blue;
+}
