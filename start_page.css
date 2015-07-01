@@ -1,0 +1,104 @@
+nav {
+	background-color: #222222;
+	display: block;
+	color: white;
+	font-family: arial;
+	height: 100px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	float: left;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.main {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	
+	margin: 100px auto 0 auto
+}
+
+.mid {
+	clear: both;
+	background-color: #c2c2c2;
+	height: 400px;
+	width: 100%;
+	margin: 0 auto;
+	border-top: 4px solid lime;
+}
+
+.container {
+	padding: 0px 20px;
+	line-height: 100px
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+
+nav ul .about_button a {
+	text-decoration: none;
+	color: white;
+	float: right;
+}
+
+nav ul .about_button a:hover {
+	color: lime;
+}
+
+nav ul .menu_button a {
+	text-decoration: none;
+	color: white;
+	float: left;
+}
+
+nav ul .menu_button a:hover {
+	color: lime;
+}
+
+body{
+	background-color: lime;
+}
+
+.banner-image {
+	margin-top: 100px;
+	height: 300px;
+	overflow: hidden;
+	background-image: url(panda.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.container_mid {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
