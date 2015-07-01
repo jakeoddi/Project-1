@@ -2,7 +2,7 @@
 	width: 15%;
 	float: left;
 	background-color: dodgerblue;
-	height: 500px;
+	height: 1000px;
 	border-right: 2px solid lightslategray;
 
 }
@@ -10,7 +10,7 @@
 	width: 15%;
 	float: right;
 	background-color: dodgerblue;
-	height: 500px;
+	height: 1000px;
 	border-left: 2px solid lightslategray;
 }
 
@@ -40,6 +40,16 @@
 	
 }
 
+.onion-logo {
+	background: url(onion.png) 50% 0 no-repeat;
+	background-size: 32px 59px;
+	width: 40px;
+	height:  100%;
+	position: absolute;
+	top: 21px;
+	left: 460px;
+}
+
 html, body {
 	margin: 0px;
 	padding: 0px;
@@ -49,7 +59,7 @@ html, body {
 .footer {
 	clear: both;
 	background-color: lightslategray;
-	height: 200px;
+	height: 125px;
 }
 
 
@@ -62,6 +72,7 @@ html, body {
 	background-color: lightslategray;
 	font-family: arial;	
 	letter-spacing: 4px;
+	position: fixed;
 }
 
 .nav ul {
@@ -81,6 +92,7 @@ html, body {
 }
 
 .container {
+	position: relative;
 	height: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
