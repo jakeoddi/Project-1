@@ -31,7 +31,7 @@ nav {
 	border-top: 4px solid lime;
 }
 
-.container {
+.container_nav {
 	padding: 0px 20px;
 	line-height: 100px
 }
@@ -82,9 +82,23 @@ body{
 }
 
 .container_mid {
-	
+	padding: 0 400px;
+	line-height: 400px;
+	font-size: 70px;
+	font-family: arial;
+	letter-spacing: 4px;
+	color: #333333;
+	text-align: center;
 }
 
+.container_mid a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.container_mid a:hover {
+	color: lime;
+}
 
 
 
